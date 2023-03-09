@@ -49,7 +49,7 @@ const Onboarding = () => {
           <View style={{ backgroundColor: "#fff", flex: 1 }}>
             <Image source={item?.Image}
               style={styles.ImgContainer}
-              resizeMode="cover"
+              resizeMode="contain"
             />
             <View style={styles.TextCont}>
               <Text style={styles.TitleText}>{item?.Title}</Text>
